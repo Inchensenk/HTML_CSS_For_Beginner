@@ -1,7 +1,13 @@
+body {
+  background-color: rgba(0, 255, 0, 0.1);
+}
+
 .card {
-  border-radius: 1em;
+  border-radius: 2em;
   text-align: center;
   padding: 1em;
+  background-color: rgba(0, 255, 0, 0.3);
+  box-shadow: inset;
 }
 
 .card:hover {
@@ -10,6 +16,6 @@
 
 .card img {
   border-radius: 50%;
-  width: 60%;
+  width: 75%;
   margin: auto;
 }
