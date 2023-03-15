@@ -7,7 +7,7 @@
     <!-- Строка задает настройку для браузера, чтобы он показывал страницу на всей ширине экрана -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Заголовок страницы -->
-    <title>Ivan Vasilyevich</title>
+    <title>Dreamer</title>
 
     <!-- Подключение внешней библиотеки стилей Bootstrap -->
     <link
@@ -29,18 +29,10 @@
       crossorigin="anonymous"
     ></script>
 
-    <!-- Стили CSS -->
-    <style>
-      /* Стиль для скругления изобрпажения */
-      .rounded-img {
-        width: 60%; /*ширина по отношению к родительскому элементу*/
-        border-radius: 50%; /*радиус скругления*/
-        box-shadow: 0 0 10px rgba(26, 9, 9, 0.4); /*тень*/
-        padding: 0.5em; /*отступ во внутрь*/
-        margin-bottom: 1em; /*отступ с низу, наружу*/
-      }
-    </style>
+    <!-- Подключение локальных стилей CSS -->
+    <link rel="stylesheet" type="text/css" href="Styles/indexCSS.css" />
 
+    <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -91,24 +83,27 @@
         lg обозначает большой размер ширины экрана, можно поменять на md: открытие сайтов на плвааншетах, sm: самый маленький к примеру для смартфоном-->
         <div class="col-lg-6 col-md-8 mx-auto">
           <!-- Путь к изображению и альтернативный текст для изоброжения(текстов) -->
-          <img class="rounded-img" src="img.jpg" alt="Avatar" />
+          <img
+            class="rounded-img"
+            src="https://lh3.googleusercontent.com/a/AGNmyxa6y-L1ESZfKLPNBhX1_88iic2GeSzDWgZULJqqC9E=s288"
+            alt="Avatar"
+          />
 
           <!-- fw-light: толщина шрифта -->
-          <h1 class="fw-light">Ivan Vasilyevich</h1>
+          <h1 class="fw-light">DreameR</h1>
           <!-- Параграф. text-muted: делает текст серым -->
           <p class="lead text-muted">
-            I am excited to tech you software development. Lorem ipsum dolor sit
-            amet consectetur adipisicing elit.
+            I am excited to tech you software development.
           </p>
 
           <!-- Ссылка по которой будет совершаться переход на другую страницу при  нажатии на кнопку 
           target="_blank": открытие страницы в новой вкладке-->
           <a
-            href="https://getbootstrap.com/"
+            href="https://www.youtube.com/channel/UChnn4ZZMSS4Kg2jVVLyc09Q"
             target="_blank"
             class="btn btn-primary"
           >
-            Bootstrap
+            My Youtube
             <!-- Кнопка. btn: стандартный стиль для кнопки бутсрап
               btn-primary: стилизация кнопки скругленные края и синий цвет
             <button class="btn btn-primary">Like!</button> -->
@@ -116,11 +111,11 @@
 
           <!-- btn-secondary: стилизация кнопки в серый цвет-->
           <a
-            href="https://htmlacademy.ru/"
+            href="https://github.com/Inchensenk"
             target="_blank"
             class="btn btn-secondary"
           >
-            HTML Academy
+            My GitHub
           </a>
         </div>
       </div>
